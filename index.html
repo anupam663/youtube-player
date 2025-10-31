@@ -32,9 +32,7 @@
       const urlParams = new URLSearchParams(queryString);
       const videoId = urlParams.get("videoId");
       const iframe = document.getElementById("thisIframe");
-
-      iframe.src = `https://www.youtube.com/embed/${videoId}?si=${videoId}&autoplay=1&controls=0&rel=0&modestbranding=1&showinfo=0`;
+      iframe.src = `https://www.youtube.com/embed/${videoId}?si=${videoId}`;
     </script>
   </body>
 </html>
-
