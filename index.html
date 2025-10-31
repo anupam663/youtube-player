@@ -24,6 +24,7 @@
       height="100%"
       frameborder="0"
       allowfullscreen
+      src="https://www.youtube.com/embed/yHy-kvpZ5Us?si=yHy-kvpZ5Us"
     ></iframe>
 
     <script>
@@ -32,7 +33,8 @@
       const videoId = urlParams.get("videoId");
       const iframe = document.getElementById("thisIframe");
 
-      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=0&rel=0&modestbranding=1&showinfo=0&mute=1`;
+      iframe.src = `https://www.youtube.com/embed/${videoId}?si=${videoId}&autoplay=1&controls=0&rel=0&modestbranding=1&showinfo=0`;
     </script>
   </body>
 </html>
+
